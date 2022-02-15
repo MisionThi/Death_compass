@@ -1,0 +1,34 @@
+{
+		"type": "origins:multiple",
+		
+		"init": {
+			"type": "origins:action_on_callback",
+			"entity_action_added": {
+				"type": "origins:execute_command",
+				"command": "function death_compass:init"
+			}
+		},
+		
+		"death": {
+			"type": "origins:action_over_time",
+			"entity_action": {
+				"type": "origins:execute_command",
+				"command": "execute as @s at @s run function death_compass:get_location/death"
+			},
+			"interval": 1,
+			"condition": {
+				"type": "origins:health",
+				"comparison": "==",
+				"compare_to": 0
+			}
+		},
+		
+		"respawn": {
+			"type": "origins:action_on_callback",
+			"entity_action_respawned": {
+				"type": "origins:execute_command",
+				"command": "execute as @s at @s run function death_compass:give_dc",
+				"permission_level": 4
+			}
+		}
+}
