@@ -1,0 +1,40 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/knowledge_book"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 4004000}, "model": "item/death_compass/0" },
+		{ "predicate": { "custom_model_data": 4004001}, "model": "item/death_compass/1" },
+		{ "predicate": { "custom_model_data": 4004002}, "model": "item/death_compass/2" },
+		{ "predicate": { "custom_model_data": 4004003}, "model": "item/death_compass/3" },
+		{ "predicate": { "custom_model_data": 4004004}, "model": "item/death_compass/4" },
+		{ "predicate": { "custom_model_data": 4004005}, "model": "item/death_compass/5" },
+		{ "predicate": { "custom_model_data": 4004006}, "model": "item/death_compass/6" },
+		{ "predicate": { "custom_model_data": 4004007}, "model": "item/death_compass/7" },
+		{ "predicate": { "custom_model_data": 4004008}, "model": "item/death_compass/8" },
+		{ "predicate": { "custom_model_data": 4004009}, "model": "item/death_compass/9" },
+		{ "predicate": { "custom_model_data": 4004010}, "model": "item/death_compass/10" },
+		{ "predicate": { "custom_model_data": 4004011}, "model": "item/death_compass/11" },
+		{ "predicate": { "custom_model_data": 4004012}, "model": "item/death_compass/12" },
+		{ "predicate": { "custom_model_data": 4004013}, "model": "item/death_compass/13" },
+		{ "predicate": { "custom_model_data": 4004014}, "model": "item/death_compass/14" },
+		{ "predicate": { "custom_model_data": 4004015}, "model": "item/death_compass/16" },
+		{ "predicate": { "custom_model_data": 4004016}, "model": "item/death_compass/16" },
+		{ "predicate": { "custom_model_data": 4004017}, "model": "item/death_compass/16" },
+		{ "predicate": { "custom_model_data": 4004018}, "model": "item/death_compass/18" },
+		{ "predicate": { "custom_model_data": 4004019}, "model": "item/death_compass/19" },
+		{ "predicate": { "custom_model_data": 4004020}, "model": "item/death_compass/20" },
+		{ "predicate": { "custom_model_data": 4004021}, "model": "item/death_compass/21" },
+		{ "predicate": { "custom_model_data": 4004022}, "model": "item/death_compass/22" },
+		{ "predicate": { "custom_model_data": 4004023}, "model": "item/death_compass/23" },
+		{ "predicate": { "custom_model_data": 4004024}, "model": "item/death_compass/24" },
+		{ "predicate": { "custom_model_data": 4004025}, "model": "item/death_compass/25" },
+		{ "predicate": { "custom_model_data": 4004026}, "model": "item/death_compass/26" },
+		{ "predicate": { "custom_model_data": 4004027}, "model": "item/death_compass/27" },
+		{ "predicate": { "custom_model_data": 4004028}, "model": "item/death_compass/28" },
+		{ "predicate": { "custom_model_data": 4004029}, "model": "item/death_compass/29" },
+		{ "predicate": { "custom_model_data": 4004030}, "model": "item/death_compass/30" },
+		{ "predicate": { "custom_model_data": 4004031}, "model": "item/death_compass/31" }
+	]
+}

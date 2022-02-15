@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "Death compass",
+      "color": "white",
+      "italic": false
+    }
+  }
+]
