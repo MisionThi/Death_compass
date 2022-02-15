@@ -13,9 +13,5 @@ scoreboard objectives add dc_px dummy
 scoreboard objectives add dc_py dummy
 scoreboard objectives add dc_pz dummy
 
-scoreboard objectives add dc_death deathCount
-scoreboard objectives add dc_respawn minecraft.custom:minecraft.time_since_death
-scoreboard objectives add dc_respawn_pr dummy
-
 scoreboard objectives add dc_dimension dummy
 
